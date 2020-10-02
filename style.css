@@ -1,0 +1,95 @@
+header
+{
+    background:black;
+    color:white;
+    height: 100%;
+    background-image: url(images/back.jpg);
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    
+}
+#navback
+{
+    background: rgb(80, 62, 62);
+    position: relative;
+    top: 95px;
+    left:8%;
+    border-radius: 10pt;
+    height: 50px;
+    width: 85%;
+    
+
+}
+
+nav li
+{
+    position: relative;
+    top: 10px;
+    left: 25%;
+    display:inline-block;
+    margin-right: 4%;
+    font-size: 20px;
+    color: wheat;
+    font-weight: bold;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover
+{
+    color: black;
+}
+section 
+{
+        
+        color:black;
+        padding: 20px 40px;
+        display: flex;
+        flex-direction: row;
+        
+}
+
+.form
+{
+    background: #e52b34;
+    padding: 100px;
+    width: 180px;
+    border: 1px solid #0e0c0c;
+    position: relative;
+    left: 5%;
+    
+    
+}
+ #date,#time,#btn,#dropdown,#name,#email,#contact
+ {
+    background: #e52b34;
+    width: 150%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    position: relative;
+    right: 35px;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 16px;
+    
+ }
+  label
+  {
+      color: white;
+      position: relative;
+      top: -50px;
+      font-size: 20px;
+      font-weight: bold;
+      text-align: center;
+     
+  }
+
+  footer
+  {
+      background-color: rgb(43, 37, 37);
+      color: white;
+      text-align: center;
+  }
